@@ -17,10 +17,15 @@ The document for the study is also attached in this repository (WIP)
 
 # Breakdown of matlab files in the project folder
 **build_scenarios.m** - This creates the 4 weather scenarios used in the study (clear, ramp, step, and mixed).
+
 **mppt_PO.m, mppt_IncCond.m, mppt_SMC.m, mppt_RCC.m, mppt_FSB.m, mppt_FLC.m, mppt_ANN.m, mppt_PSO.m, mppt_GA.m, mppt_GWO.m** - The 10 MPPT algorithms codes used in the study.
+
 **run_all.m** - Executes the 120 simulations total in the study.
+
 **analyze_all_results.m** - Computes the performance metrics for all the MPPT simulation runs 
+
 **metrics_engine.m** - Compiles all the important data from simulations and create visual graphs and charts of the results.
+
 **compute_algorithm_rank_stability.m** - Computes for the entropy weight derived ranking of the algorithms (Algorithm Rank Stability) which is a unique metric introduced by the study.
 
 # Inquiries
