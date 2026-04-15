@@ -15,6 +15,8 @@ A .zip file is in the repository which shows a version of the file with complete
 
 The document for the study is also attached in this repository (WIP)
 
+**Q: Can other datasets be used instead of the one used in your study**
+A: Yes. You can replace the datasets in the folder with your desired dataset and it will run accordingly. Make sure the code and file names match to prevent any errors.
 # Breakdown of matlab files in the project folder
 **build_scenarios.m** - This creates the 4 weather scenarios used in the study (clear, ramp, step, and mixed).
 
